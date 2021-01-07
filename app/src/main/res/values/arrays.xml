@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fragments">
+        <item>Album</item>
+        <item>Photos</item>
+    </string-array>
+    <string-array name="fragments_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="sortmodes">
+        <item>Date</item>
+        <item>Name</item>
+        <item>Filesize</item>
+        <item>Resolution</item>
+    </string-array>
+    <string-array name="thumbnail_resolutions">
+        <item>32x32</item>
+        <item>64x64</item>
+        <item>128x128</item>
+        <item>256x256</item>
+    </string-array>
+    <string-array name="thumbnail_resolution_values">
+        <item>x=32&amp;y=32&amp;a=true</item>
+        <item>x=64&amp;y=64&amp;a=true</item>
+        <item>x=128&amp;y=128&amp;a=true</item>
+        <item>x=256&amp;y=256&amp;a=true</item>
+    </string-array>
+
+</resources>

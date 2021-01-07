@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="General">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_brightness_4_black_24dp"
+            android:key="dark_theme"
+            android:title="Darktheme" />
+        <ListPreference
+            android:entries="@array/fragments"
+            android:entryValues="@array/fragments_values"
+            android:key="start_fragment"
+            android:summary="@string/default_fragment_summary"
+            android:title="@string/default_fragment_pref"
+            app:dialogTitle="@string/default_fragment_pref" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Gallery">
+        <ListPreference
+            android:entries="@array/sortmodes"
+            android:entryValues="@array/sortmodes"
+            android:key="gallery_sort"
+            android:summary="@string/default_gallery_sort_summary"
+            android:title="@string/default_gallery_sort_pref"
+            app:dialogTitle="@string/default_gallery_sort_pref" />
+        <ListPreference
+            android:entries="@array/thumbnail_resolutions"
+            android:entryValues="@array/thumbnail_resolution_values"
+            android:key="thumbnail_res"
+            android:summary="@string/thumbnail_resolution_summary"
+            android:title="@string/thumbnail_res"
+            app:dialogTitle="@string/thumbnail_res" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

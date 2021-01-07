@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tree_level_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:minHeight="48dp"
+    android:paddingLeft="32dp">
+
+    <ImageView
+        android:id="@+id/itemnode_divider"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/blue_grey"/>
+
+    <CheckBox
+        android:id="@+id/itemnode_selector"
+        android:elevation="3dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        />
+
+    <ImageView
+        android:id="@+id/itemnode_chevron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="-20dp"
+        app:srcCompat="@drawable/ic_chevron_right_24dp"
+        android:tint="@color/blue_grey"/>
+
+    <ImageView
+        android:id="@+id/itemnode_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_folder_black_24dp"
+        android:tint="@color/blue_grey"/>
+
+    <TextView
+        android:id="@+id/itemnode_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textSize="16sp" />
+</LinearLayout>

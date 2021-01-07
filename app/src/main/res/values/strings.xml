@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Nextcloud Gallery</string>
+
+    <!--  Albums  -->
+    <string name="albums_title">Alben</string>
+    <string name="home_bg_descr">AlbumPage BG</string>
+    <string name="home_text">You have no albums yet</string>
+    <string name="collapse_indicator">chevron indicating the opton to collapse or expand the card</string>
+    <string name="album_preview_image">album preview image</string>
+    <string name="album_card_details">card_details placeholder</string>
+    <string name="album_card_title">card_title placeholder</string>
+    <string name="detailview_of_selected_image">detailview of selected image</string>
+    <string name="detail_image_transition_name">detail_image</string>
+
+    <!--  Gallery  -->
+    <string name="images_title">Photos</string>
+    <string name="images_bg_descr">ImagePage BG</string>
+    <string name="images_text">You have no photos yet</string>
+    <string name="name_seperator_placeholder_text">Initial of Imagese below</string>
+    <string name="date_seperator_placeholder_text">Date Of Images Below</string>
+    <string name="photo_card_description">displays a photo from the cloud</string>
+
+    <!--  Settings  -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_text">There are no Settings yet</string>
+    <string name="default_fragment_pref">Default Start Fragment</string>
+    <string name="default_fragment_summary">Select the fragment to be shwon at startup</string>
+    <string name="default_gallery_sort_pref">Gallery Sortingmode</string>
+    <string name="default_gallery_sort_summary">Select the value by which the Gallery will be sorted</string>
+    <string name="thumbnail_res">Thumbnail Resolution</string>
+
+    <!--  Debug  -->
+    <string name="test_url"></string>
+    <string name="username"></string>
+    <string name="password"></string>
+
+    <!--  Onboarding  -->
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="url_hint">Nextcloud Hostadress</string>
+    <string name="thumbnail_resolution_summary">Resolution of downloaded thumbnail (this can lead to increased storage consumption)</string>
+    <string name="title_activity_onboarding">Onboarding</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="onboarding_complete">PREF_USER_FIRST_TIME</string>
+    <string name="login">Login</string>
+
+</resources>
